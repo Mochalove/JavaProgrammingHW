@@ -1,0 +1,79 @@
+Chapter 2 Java Fundamentals
+____________________________
+-Package holds java files, they should be all lowercase
+-Java classes start with a uppercase letter
+-Reserved words are orange
+
+Chapter 3c switch statements
+___________________________
+-If situation A occurs, <do something>
+-Else if situation B occurs, <do something else>
+-Else if situation c occurs, <do something else>
+
+~Chapter 3c Nested if statements~
+_________________________________
+-If a certain situation occurs, check for the next situation
+
+~Chapter 3b if- else statement
+_____________________________
+<do something>
+otherwise,
+<do something else>
+~Chapter 3f relational and logical operators~
+_____________________________________________
+Relational operators:
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+== equal to
+!= not equal to
+Logical operators:
+&& And both conditions must be true
+|| or at least one condition must be true
+
+~Chapter 4a while loop repetition structures
+___________________________________________
+//Initialize known variables
+//Get input for known variables
+//Validate input
+//Calculate total
+
+~Chapter 6a Classes and Objects~
+________________________________
+-Everything in java is associated with classes and objects, along with it's attributes and methods
+-An object is created from a class. We have already created the class named main, so now we can use this to create objects
+-To create an object of main, specify the class name, followed by the object name, and use the keywork
+
+~Chapter 6d Overloading within a class
+_____________________________________
+	Overloaded constructors
+public class Mushroom{
+public Mushroom(int size){}
+public Mushroom(){}
+public Mushroom(boolean is perfect){}
+-Overloaded constructors means you have more than one constructor/parameter in your class
+
+~Chapter 7b Searching Arrays~
+_____________________________
+-Searches every element in the array until it finds the value it's looking for or until it arrives at the end of the array
+-Inefficient for more than 7,000 elements
+Binary search:
+-Elements would need to be in ascending order from least to greatest
+-Quicker approach than sequential
+(Arrays.binarySearch)
+
+~Chapter 9 Inheritance~
+_______________________
+-Inheriting attributes and methods from one class to another
+-To inherit from a class, use the extends keyword
+-The car class (subclass) inherits the attributes and methods from the vehicle class (superclass)
+
+~Chapter 10 Polymorphism~
+________________________
+-Means "many forms", and it occurs when we have many classes that are related to each other by inheritance
+
+~What I learned from the videos overall~
+I loved the videos and they were very helpful, everything I wrote down was a refresher/something I learned that was new.
+
+
